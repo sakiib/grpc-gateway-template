@@ -51,7 +51,6 @@ $ make run
 $ make clean
 ```
 
----
 #### or Use the docker image:
 ```bash
 $ docker pull sakibalamin/grpc-gateway:v0.0.1
