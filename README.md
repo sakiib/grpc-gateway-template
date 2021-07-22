@@ -36,7 +36,7 @@
 ```
 
 ---
-#### Usage:
+#### Clone the repo & run locally:
 ```bash
 # install the dependencies
 $ make install
@@ -51,6 +51,12 @@ $ make fmt
 $ make clean
 ```
 
+---
+#### Use the docker image:
+```bash
+$ docker pull sakibalamin/grpc-gateway:v0.0.1
+$ docker run -p 8000:8000 -it sakibalamin/grpc-gateway:v0.0.1
+```
 ---
 #### Use cURL to send HTTP requests:
 ```bash
