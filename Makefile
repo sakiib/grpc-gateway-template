@@ -18,7 +18,7 @@ install:
 
 .PHONY:
 run:
-	go run server/server.go -port 8080
+	go run server/main.go -port 8080
 
 .PHONY:
 clean:

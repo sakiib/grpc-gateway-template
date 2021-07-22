@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	port := flag.Int("port", 0, "server port")
+	port := flag.Int("port", 8080, "server port")
 	flag.Parse()
 
 	log.Printf("starting the server on port: %d", *port)
