@@ -1,6 +1,8 @@
 ### gRPC Gateway Template
+#### gRPC to JSON proxy generator following the gRPC HTTP spec.
 
-#### Folder structure:
+---
+#### Project structure:
 ```bash
 ├── buf.gen.yaml
 ├── buf.yaml
@@ -30,7 +32,8 @@
 
 ```
 
-### Usage:
+---
+#### Usage:
 ```bash
 # install the dependencies
 $ make install
@@ -45,10 +48,13 @@ $ make fmt
 $ make clean
 ```
 
-#### use cURL to send HTTP requests:
+---
+#### Use cURL to send HTTP requests:
 ```bash
+# request
 $ curl -X POST -H "Content-Type:application/json" -k http://localhost:8000/v1/hello -d '{"name": "sakib"}'
 ```
 ```bash
+# response
 {"message":"Hello sakib"}
 ```
