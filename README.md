@@ -6,6 +6,7 @@
 ```bash
 ├── buf.gen.yaml
 ├── buf.yaml
+├── Dockerfile
 ├── gateway
 │   └── gateway.go
 ├── gen
@@ -16,6 +17,7 @@
 │           └── hello_world.pb.gw.go
 ├── go.mod
 ├── go.sum
+├── grpc
 ├── Makefile
 ├── proto
 │   ├── google
@@ -26,9 +28,10 @@
 │       └── hello_world.proto
 ├── README.md
 ├── server
-│   └── server.go
-└── service
-    └── greeter_service.go
+│   └── main.go
+├── service
+│   └── greeter_service.go
+└── vendor
 
 ```
 
