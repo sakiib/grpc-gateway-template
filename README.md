@@ -43,16 +43,16 @@ $ make install
 # generate pb.go, pb.gw.go, grpc.pb.go
 $ make gen
 # run the gRPC server & the gateway
-# gRPC server running on port: 8080 & the gateway server running on port: 8000
-$ make run
 # format go code
 $ make fmt
+# gRPC server running on port: 8080 & the gateway server running on port: 8000
+$ make run
 # remove the generated pb.go, pb.gw.go, grpc.pb.go
 $ make clean
 ```
 
 ---
-#### Use the docker image:
+#### or Use the docker image:
 ```bash
 $ docker pull sakibalamin/grpc-gateway:v0.0.1
 $ docker run -p 8000:8000 -it sakibalamin/grpc-gateway:v0.0.1
